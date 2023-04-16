@@ -19,6 +19,7 @@ import {
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
+import { AiFillGithub } from "react-icons/ai";
 
 const Links = ["Dashboard", "Project Details", "Team"];
 
@@ -76,6 +77,12 @@ export default function Simple() {
               <Button onClick={toggleColorMode}>
                 {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
               </Button>
+              <a
+                href="https://github.com/vr513/solve-for-india"
+                target="_blank"
+              >
+                <AiFillGithub style={{height: "40px"}} />
+              </a>
             </Stack>
           </Flex>
         </Flex>

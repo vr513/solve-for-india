@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
-    <Container maxW={"7xl"}>
+    <Container maxW={"7xl"} >
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 10 }}
