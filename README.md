@@ -1,14 +1,14 @@
 # README - Blockchain-based E-Voting App
 
-This is a blockchain-based e-voting application built for the Geeks for Geeks Solving for India hackathon. Unfortunately, we were not able to complete the implementation of the project before the submission deadline. The frontend of the application is a static website that describes the benefits of e-voting based on blockchain technology. The frontend is built using Chakra UI and React, and deployed at `http://34.125.178.251/`. The code for the frontend can be found in the "frontend" directory.
+This is a blockchain-based e-voting application built for the Geeks for Geeks Solving for India hackathon. Unfortunately, we were not able to complete the implementation of the project before the submission deadline. The frontend of the application is a static website that describes the benefits of e-voting based on blockchain technology. The frontend is built using Chakra UI and React, and deployed at `http://34.125.178.251/`. The code for the frontend can be found in the "frontend" directory.You can also view the live contract deployed on sepolia etherscan network `https://sepolia.etherscan.io/address/0x70f51AE75158c8373229D55178416688942d9cA7`
 
-The server directory of the project contains the Ethereum blockchain contract code in the Election contract.sol file. The contract is deployed on the Goerli test network, and the contract address is `0x70f51AE75158c8373229D55178416688942d9cA7`. The code for the server can be found in the "server" directory.
+The server directory of the project contains the Ethereum blockchain contract code in the Election contract.sol file. The contract is deployed on the Sepolia test network, and the contract address is `0x70f51AE75158c8373229D55178416688942d9cA7`. The code for the server can be found in the "server" directory.
 
 If our project gets shortlisted for the next round of the competition, we will make sure to develop a working prototype.
 
 ## Objective
 
-Building an electronic voting application for the Geeks for Geeks Solving for India hackathon is the goal of the mentioned project. The program seeks to illustrate the advantages of blockchain-based electronic voting, including its greater transparency, immutability, and security. The application's frontend is a static website created with Chakra UI and React that outlines the advantages of blockchain-based electronic voting. The Election contract.sol file, which is installed on the Goerli test network, contains the Ethereum blockchain contract code that was used to create the application's backend. The project is open to community contributions and is released under the MIT Licence.
+Building an electronic voting application for the Geeks for Geeks Solving for India hackathon is the goal of the mentioned project. The program seeks to illustrate the advantages of blockchain-based electronic voting, including its greater transparency, immutability, and security. The application's frontend is a static website created with Chakra UI and React that outlines the advantages of blockchain-based electronic voting. The Election contract.sol file, which is installed on the Sepolia test network, contains the Ethereum blockchain contract code that was used to create the application's backend. The project is open to community contributions and is released under the MIT Licence.
 
 ## Methodology
 
@@ -36,17 +36,17 @@ To run the application, you will need to have Node.js and npm installed on your 
 
 1. Clone the repository
 2. Navigate to the frontend project directory
-    `cd frontend`
+   `cd frontend`
 3. Install the dependencies for the frontend using the command `yarn` in the "frontend" directory
 4. Navigate to the server project directory
-    `cd server`
-4. Install the dependencies for the server using the command `npm install` in the "server" directory
+   `cd server`
+5. Install the dependencies for the server using the command `npm install` in the "server" directory
 
 ## Usage
 
-To run the frontend, navigate to the "frontend" directory and start the development server using the command `yarn run dev`. Once the development server is running, you can access the application at `http://localhost:5173/`. 
+To run the frontend, navigate to the "frontend" directory and start the development server using the command `yarn run dev`. Once the development server is running, you can access the application at `http://localhost:5173/`.
 
-The Election contract is deployed on the Goerli test network, and the contract address is `0x70f51AE75158c8373229D55178416688942d9cA7`. You can interact with the contract using a tool like Remix.
+The Election contract is deployed on the Sepolia test network, and the contract address is `0x70f51AE75158c8373229D55178416688942d9cA7`. You can interact with the contract using a tool like Remix.
 
 ## Contributing
 

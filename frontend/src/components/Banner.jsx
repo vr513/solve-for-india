@@ -17,12 +17,13 @@ import { Link } from "react-router-dom";
 
 export default function Banner() {
   return (
-    <Container maxW={"7xl"} >
+    <Container maxW={'95vw'}  overflowX={'hidden'}>
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
         direction={{ base: "column", md: "row" }}
+        maxH={'90vh'}
       >
         <Stack flex={1} spacing={{ base: 5, md: 10 }}>
           <Heading
@@ -95,7 +96,7 @@ export default function Banner() {
             top={"-20%"}
             left={0}
             zIndex={-1}
-            color={useColorModeValue("red.50", "red.400")}
+            color={useColorModeValue("red.400", "red.400")}
           />
           <Box
             position={"relative"}
