@@ -15,12 +15,12 @@ import {
   useDisclosure,
   useColorModeValue,
   Stack,
-  useColorMode
+  useColorMode,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
-const Links = ["Dashboard", "Projects", "Team"];
+const Links = ["Dashboard", "Project Details", "Team"];
 
 const NavLink = ({ children }) => (
   <Link
@@ -31,7 +31,15 @@ const NavLink = ({ children }) => (
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={"#"}
+    href={
+      children === "Project Details"
+        ? "/project-details"
+        : children === "Team"
+        ? "/team"
+        : children === "Dashboard"
+        ? "/"
+        : null
+    }
   >
     {children}
   </Link>
@@ -53,7 +61,6 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={"center"}>
-            <Box>Logo</Box>
             <HStack
               as={"nav"}
               spacing={4}
@@ -105,8 +112,6 @@ export default function Simple() {
           </Box>
         ) : null}
       </Box>
-
-      <Box p={4}>Main Content Here</Box>
     </>
   );
 }
