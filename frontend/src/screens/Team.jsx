@@ -3,7 +3,6 @@ import {
   Heading,
   Avatar,
   Box,
-  Center,
   Image,
   Flex,
   Text,
@@ -16,7 +15,7 @@ import {
 const Team = () => {
   return (
     <>
-    <Flex  >
+    <Flex  padding="3.5rem">
     <Container   margin="20px" py={6}>
       <Box
         maxW={'270px'}
@@ -53,27 +52,10 @@ const Team = () => {
             </Heading>
             <Text color={'gray.500'}>Frontend Developer</Text>
           </Stack>
-          
-
-         {/* <Stack direction={'row'} justify={'center'} spacing={6}>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-          </Stack> */}
-
           <Button
             w={'full'}
             mt={8}
-            bg={useColorModeValue('#151f21', 'gray.900')}
+            bg={useColorModeValue('#151f21', 'gray.700')}
             color={'white'}
             rounded={'md'}
             _hover={{
@@ -85,6 +67,7 @@ const Team = () => {
         </Box>
       </Box>
     </Container>
+
 {/* Aman Deshpande  */}
   
 <Container  margin="20px" py={6}>
@@ -123,27 +106,10 @@ const Team = () => {
             </Heading>
             <Text color={'gray.500'}>Frontend Developer</Text>
           </Stack>
-          
-
-         {/* <Stack direction={'row'} justify={'center'} spacing={6}>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-          </Stack> */}
-
           <Button
             w={'full'}
             mt={8}
-            bg={useColorModeValue('#151f21', 'gray.900')}
+            bg={useColorModeValue('#151f21', 'gray.700')}
             color={'white'}
             rounded={'md'}
             _hover={{
@@ -155,6 +121,8 @@ const Team = () => {
         </Box>
       </Box>
     </Container>
+
+
      {/*aarya   */ }
 
     <Container margin="20px" py={6}>
@@ -194,27 +162,10 @@ const Team = () => {
             </Heading>
             <Text color={'gray.500'}>Full Stack Developer</Text>
           </Stack>
-          
-
-         {/* <Stack direction={'row'} justify={'center'} spacing={6}>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-          </Stack> */}
-
           <Button
             w={'full'}
             mt={8}
-            bg={useColorModeValue('#151f21', 'gray.900')}
+            bg={useColorModeValue('#151f21', 'gray.700')}
             color={'white'}
             rounded={'md'}
             _hover={{
@@ -247,7 +198,7 @@ const Team = () => {
           <Avatar
             size={'xl'}
             src={
-              "https://lh3.googleusercontent.com/fife/APg5EOY9mahuvnXqmRpTQgXmkmrJMkq32b_XVNcEdjy5mqVHuAE7wFrQYGiB4IHUhbHL289TpISIs9muMnuc4yOnvcIeojmySZHo-ytyKxIdzIZJ2ksySFmAa_p9eUfXqrEx1zF27eVGG0L5W7DOFD0nmjuf1OTou36OBukC7FUKuEQyhdOPjcVqKeM9UU91B0DmvffZHY3ntROyTj4xZ9b8Dj6Vbm3zmcdY8zrFlTISL53LF_wyTY8A8-gDr1Nvov3hq4llXDReG-i_JRVnt9GwMPTc7_r6dN7mFhaULMgRrBYzI2WCh_I5Pj-L1B0U2OHQvrpgZs7_rR6hCsQ58_l_zUypEedmLTH8FKXXLjuT1qSlUDhAtTOm1XcBZR5pCq3yHzwpTk47dFOzUsW8yLpzQUEQ58EEH0B8pCr6Qkb4GpJZuFiOH6enIICHPu27lGMbWGQbFAn9Mq1w7TSeoL2qxsCXMvS-gptQxtV0kBH65IS5zcXySQEJwHDKEvIpiQSmUtUHeWkEjCrLC-rFpRl7KO1t5fBL9J4rZM2QIpPLdcy2-1mUqcaaRzebPAGhvJyJPQpdzo7XjK_ORewYkuiDcppTFTSzIXBF0AzWCirGj5ZmcT3ouIN4aF67rm-J3riL3c_ZSuleH5pMw2tBLhFmldQSP4tcwCgdW84YLZUkWNG8TWiT2xwzXpPy6Ps1Ars_zcNiymtzOdByxBzuINBAXd9wrM5fX9LN8jVTHz_x6xlI4GiFeH-j8lzbdZkAWl8lum1EiF2rGYutyydc1ZUZT5RaM4Me4BU3veP7Oe9UGBPrHZeFQ5HyN9oHoSi4nuUOBk2AsY92i8miMsKfc39Ss4EaacDCGt5K48h0-K08cpIkAD76A9goa2-1A3VEOCTEdNJpuKezBeKPfYDD61hB4FGraLOu4Z2SP_g4WYWDsWGfsOL7CoRFrAuw52MMo8R-Q981cV_wyU8kZHHT5RZXua4JfBJHYO3gj6qHcR81LxOkTA0zzvefMNE04rdlPgZ15xHsKW4WykehEis5OhV1IxRs2OL9x0Gd4wyZBXhjnsePUCnUEi9Em4q9_buQRAFcc9pg3KEMttqijRaHNRMfpA46uwlxADgtok9cFZsjGh1LTf99A0YT2fSh3L2VfNssj8Fbd2BhLdrfzDB09wFVMvFNYf_i7_yuLB_tUz69kpPZOWt29ZIWezQwJtzBDyhJIwualPQ2gV_3j4X7m1L3JHzfzjRQgz7PBWvdkAiYJWm31hdMBqAeM6H3X7eQiBAz1gFUWVRSS8zxnNpSAjbsmllRYcLAHjo40lKT0zTF4aJ6nZRBTUETHac2lgnooasTov1QH6SjWUX3NY7Z6HyQ4QrKo7U0z7a6RYjJRDcbaQkXpILsrt9GArt7S5Fe8aBh1bDdrKI4TcTrHVAtG8QE4fwCIU4b-fjASLVStQHtO5J9WqZj87QS90lNBZquAspgUf8iXNP5B2BGy09Ae1Hab76AkTmb=w897-h877"
+              'https://lh3.googleusercontent.com/fife/APg5EOZOV3HKo6vtZARv1QCVEDPL_2R5LMIptFrohNPRvis9_euW9hvfIvE7RYjUSWgM4soYJMwKV-HFiXtWFkNnJNd-8EdoJpNDy-ztjme_VnnG-zoJVvQxDowP14vBcLDWgMIHMkZYgbjQ4-KGrv1wBlnviHmwYVuIUIIoztNbOue84qMP-V_QNOlkxfChiCHVf7JzeeTOPk510NtLD9WbxBazIB5jQyqq28jT49GF1GKF_zTGiYRLhVxBKfKaV1vmoVZaV7xNSj5bOrthm7hiZWRn9L5VH2njAXlEFEY5DwLHVNx7BSbX4yDj-hUWLL-VRQ3z0n3tFktF9rnEtyFzvghE5cPepk-KX8Xatxu4VA2PrQl60yC7pL4N5r1lfmRS8g40XgaTzl4XiFqUG2DzfokYxOjEJUtxLsvFiXRWHbm5s-86UM6Ez5xyoCjfHUAIWIzly-f5p98EKAk0r_jygtoR_QrvDZkb24yKk_XAVBv6ku9DLnBmnHKAbKXgKlFhJKec_lzkmUfnUf1HjFo4ShLLnEzgPyXnefYrqvy9JLCmugjmJR3MwL-L_zhNkmp2nVV5HfrdMyxkha9zWAlZVv7CVj14vIy8RkFLMN1deO0JX_g3RX2Dk37YzzIbp65V7W-19YMhhx8b2aOGVfdkoVJyAqhX2hxUjWp_t15csN4vQkL-_jy1W1uiom3uVZWOJFutpqAbQIyNkCkVS_vR6YH7lRXVvtSRuw0u9EmN8Wg800s-rZEEmwsYQRhexhuW30Q60v7yTSUvajOWhQuvCGQuo6W25AiKsxrdfEXk-qlF-zlXArWzCQgzttvMvHTcKqhWRgki0NzoBAKTAy6mSUCqpiVNVD0quUJsOaAKdnKsEOFoy5fUtP5cxp9NVfnUG48XRLVmRdWmaHQWIZ5Gf4Buy6_nHi8VAcGPPyN6OpEzWPJEDPUkl3nX547KOTa5C0PR5NINpcEuXnXu6EQOWhJkP0VgY8aJ15xvskzWYkJIQLmPD1SfW61iit7vIeewIIMEcluujrRw5rpkfrNgIiVR8J3jWtIElHSQyBjV2-fA191JKrc7_wdfSGsTTENS_RXxNZhnwqDl_L3oI2DmRvXeiu5Jmk712Kg02Zfcazv_lRGrHi1AXrOmnhEBfqPJ0MXjK_496n2P1zDnHPvPlqepAgAHKqN5-C0F-1midXt0xmN-LpnslKIDEqnE3Mq5AApU3jcyeqm_LpqRT_bno4gIAtH11u0kR_eDjHVGKXr3myhmc8UeUmWuFws6YUtdL87owWKj4vOJXwtFSUuS6VXaxq7TptF9h7Pm6tNPWHNhcjNuYnSnY-G8YL8Wbj7niHK6BArkiazzhf6n-JHLGtG0ZXJo-cUwpPlE5jQT1MCSBOcHP6mjq_Z_fOvntDWZR4LQLwj7Lx_zay9UV9zevPOLjlT-SoJ6N5RK7W5FbkV5RAxxNCgzIRpcBGJsWzsRV4a-lRNyY3-RWlTayClBG7GMDxsF=w1920-h897'
             }
             alt={'Author'}
             css={{
@@ -259,31 +210,15 @@ const Team = () => {
         <Box p={6}>
           <Stack spacing={0} align={'center'} mb={5}>
             <Heading fontSize={'2xl'} fontWeight={500} fontFamily={'body'}>
-              Varad Rajopadya 
+              Varad Rajopadhya 
             </Heading>
             <Text color={'gray.500'}>Full Stack  Developer</Text>
           </Stack>
           
-
-         {/* <Stack direction={'row'} justify={'center'} spacing={6}>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-            <Stack spacing={0} align={'center'}>
-              <Text fontWeight={600}>23k</Text>
-              <Text fontSize={'sm'} color={'gray.500'}>
-                Followers
-              </Text>
-            </Stack>
-          </Stack> */}
-
           <Button
             w={'full'}
             mt={8}
-            bg={useColorModeValue('#151f21', 'gray.900')}
+            bg={useColorModeValue('#151f21', 'gray.700')}
             color={'white'}
             rounded={'md'}
             _hover={{
